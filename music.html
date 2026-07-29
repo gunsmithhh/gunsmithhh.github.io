@@ -6,30 +6,21 @@
 <title>Music — Gunnar Goldsmith</title>
 <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class="music-body">
   <header class="site-header">
     <a class="wordmark" href="index.html">Gunnar Goldsmith</a>
   </header>
-  <main>
-    <h1 class="page-title">Music</h1>
+  <main class="music-main">
+    <div id="hero"></div>
     <div id="grid" class="music-grid"></div>
-    <p class="subtext">More singles drop here as they release.</p>
-    <div class="link-list" style="margin-top: 8px;">
-      <a href="https://open.spotify.com/artist/3gH5fmM13ZXpUbEJU6toYk" target="_blank" rel="noopener">Spotify</a>
-      <a href="https://music.apple.com/us/artist/gunnar/1773505145" target="_blank" rel="noopener">Apple Music</a>
-      <a href="https://soundcloud.com/user-57080815" target="_blank" rel="noopener">SoundCloud</a>
-      <a href="https://www.mixcloud.com/gunnargoldsmith" target="_blank" rel="noopener">Mixcloud — DJ Sets</a>
-    </div>
   </main>
 
   <script src="js/songs.js"></script>
   <script>
-    const grid = document.getElementById("grid");
-    SONGS.forEach((song) => {
-      const card = document.createElement("a");
-      card.className = "cover-card";
-      card.href = `listen.html?id=${encodeURIComponent(song.id)}`;
+    const [featured, ...rest] = SONGS;
+    const heroEl = document.getElementById("hero");
 
+    function buildArt(song) {
       const art = document.createElement("div");
       art.className = "cover-art";
       if (song.cover) {
@@ -38,17 +29,39 @@
         img.alt = song.title;
         art.appendChild(img);
       } else {
+        art.classList.add("cover-art--placeholder");
         const span = document.createElement("span");
         span.textContent = song.title;
         art.appendChild(span);
       }
+      return art;
+    }
 
-      const label = document.createElement("div");
+    if (featured) {
+      const heroLink = document.createElement("a");
+      heroLink.className = "hero-cover";
+      heroLink.href = `listen.html?id=${encodeURIComponent(featured.id)}`;
+      heroLink.appendChild(buildArt(featured));
+      heroEl.appendChild(heroLink);
+
+      const heroCaption = document.createElement("p");
+      heroCaption.className = "hero-caption";
+      heroCaption.textContent = featured.title;
+      heroEl.appendChild(heroCaption);
+    }
+
+    const grid = document.getElementById("grid");
+    rest.forEach((song) => {
+      const card = document.createElement("a");
+      card.className = "cover-card";
+      card.href = `listen.html?id=${encodeURIComponent(song.id)}`;
+      card.appendChild(buildArt(song));
+
+      const label = document.createElement("p");
       label.className = "cover-label";
       label.textContent = song.title;
-
-      card.appendChild(art);
       card.appendChild(label);
+
       grid.appendChild(card);
     });
   </script>

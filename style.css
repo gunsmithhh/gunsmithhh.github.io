@@ -163,6 +163,41 @@ main {
   line-height: 1.6;
 }
 
+/* ---------- Music page (blonded-style) ---------- */
+
+.music-body main.music-main {
+  justify-content: flex-start;
+  padding-top: 24px;
+}
+
+.hero-cover {
+  display: block;
+  width: min(70vw, 460px);
+  margin: 0 auto 32px;
+}
+
+.hero-cover .cover-art {
+  border-radius: 0;
+  transition: opacity 0.2s ease;
+}
+
+.hero-cover .cover-art img {
+  border-radius: 0;
+}
+
+.hero-cover:hover .cover-art {
+  opacity: 0.85;
+}
+
+.hero-caption {
+  width: min(70vw, 460px);
+  margin: 10px auto 0;
+  text-align: center;
+  font-size: 12px;
+  letter-spacing: 0.03em;
+  color: var(--muted);
+}
+
 /* ---------- Music grid ---------- */
 
 .music-grid {
@@ -181,11 +216,10 @@ main {
   width: 100%;
   aspect-ratio: 1 / 1;
   border-radius: 8px;
-  background: linear-gradient(145deg, var(--gold-soft), var(--gold));
+  overflow: hidden;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 16px;
   text-align: center;
   transition: transform 0.2s ease;
 }
@@ -194,7 +228,12 @@ main {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  border-radius: 8px;
+  display: block;
+}
+
+.cover-art--placeholder {
+  background: linear-gradient(145deg, var(--gold-soft), var(--gold));
+  padding: 16px;
 }
 
 .cover-art span {
@@ -231,20 +270,24 @@ main {
   width: 220px;
   height: 220px;
   border-radius: 12px;
-  background: linear-gradient(145deg, var(--gold-soft), var(--gold));
+  overflow: hidden;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 20px;
   text-align: center;
   margin-bottom: 28px;
+}
+
+.track-cover--placeholder {
+  background: linear-gradient(145deg, var(--gold-soft), var(--gold));
+  padding: 20px;
 }
 
 .track-cover img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  border-radius: 12px;
+  display: block;
 }
 
 .track-cover span {
@@ -255,9 +298,10 @@ main {
 }
 
 .track-title {
-  font-size: 16px;
-  font-weight: 700;
-  letter-spacing: 0.02em;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  color: var(--muted);
   margin: 0 0 4px;
   text-align: center;
 }
@@ -279,4 +323,125 @@ main {
 
 .back-link:hover {
   color: var(--ink);
+}
+
+/* ---------- Content / UGC page (La Frame Media style) ---------- */
+
+body.ugc-body {
+  background: #0a0a0a;
+  color: #f5f5f5;
+}
+
+.ugc-header {
+  padding: 32px 24px 0;
+}
+
+.ugc-header .wordmark {
+  color: #f5f5f5;
+}
+
+.ugc-header .wordmark:hover {
+  color: #cfa955;
+}
+
+main.ugc-main {
+  justify-content: flex-start;
+  width: 100%;
+  padding: 40px 24px 80px;
+}
+
+.ugc-intro {
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.ugc-intro h1 {
+  font-size: 13px;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin: 0 0 10px;
+}
+
+.ugc-intro p {
+  font-size: 13px;
+  color: #a8a8a8;
+  margin: 0;
+  font-style: italic;
+}
+
+.ugc-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 4px;
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.ugc-tile {
+  position: relative;
+  aspect-ratio: 4 / 5;
+  display: flex;
+  align-items: flex-end;
+  padding: 20px;
+  overflow: hidden;
+  transition: opacity 0.25s ease, transform 0.25s ease;
+}
+
+.ugc-tile:hover {
+  opacity: 0.85;
+}
+
+.ugc-tile--disabled {
+  cursor: default;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  gap: 6px;
+  opacity: 0.55;
+}
+
+.ugc-tile--disabled:hover {
+  opacity: 0.55;
+}
+
+.ugc-label {
+  position: relative;
+  z-index: 1;
+  color: #fff;
+  font-size: 14px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-shadow: 0 1px 4px rgba(0,0,0,0.4);
+}
+
+.ugc-soon {
+  position: relative;
+  z-index: 1;
+  color: #cfcfcf;
+  font-size: 10px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.ugc-automobile {
+  background: linear-gradient(160deg, #3a3a3a, #111111);
+}
+
+.ugc-immobilier {
+  background: linear-gradient(160deg, #2b2416, #111111);
+}
+
+.ugc-youtube {
+  background: linear-gradient(160deg, #3a1414, #111111);
+}
+
+.ugc-tiktok {
+  background: linear-gradient(160deg, #101820, #111111);
+}
+
+@media (max-width: 640px) {
+  .ugc-grid { grid-template-columns: 1fr; }
 }

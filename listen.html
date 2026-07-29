@@ -41,6 +41,7 @@
         img.alt = song.title;
         cover.appendChild(img);
       } else {
+        cover.classList.add("track-cover--placeholder");
         const span = document.createElement("span");
         span.textContent = song.title;
         cover.appendChild(span);
@@ -60,6 +61,7 @@
       const platforms = [
         ["Spotify", song.spotify],
         ["Apple Music", song.appleMusic],
+        ["YouTube Music", song.youtubeMusic],
         ["SoundCloud", song.soundcloud],
         ["Amazon Music", song.amazonMusic],
       ];
