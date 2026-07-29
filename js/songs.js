@@ -6,7 +6,7 @@ const SONGS = [
   {
     id: "funkybasss",
     title: "funkybasss",
-    cover: "assets/covers/funkybasss.webp",
+    cover: "assets/covers/funkybasss.jpg",
     spotify: "https://open.spotify.com/album/2UUiVGJQtjritNWHwFGG9m",
     appleMusic: "https://music.apple.com/us/album/funkybasss-single/1773693023",
     soundcloud: "https://soundcloud.com/user-57080815/funkybasss",
