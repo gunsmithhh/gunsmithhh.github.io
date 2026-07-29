@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Listen — Gunnar Goldsmith</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="wordmark" href="index.html">Gunnar Goldsmith</a>
+  </header>
+  <main id="content">
+    <p class="subtext">Loading&hellip;</p>
+  </main>
+
+  <script src="js/songs.js"></script>
+  <script>
+    const params = new URLSearchParams(window.location.search);
+    const id = params.get("id");
+    const song = SONGS.find((s) => s.id === id);
+    const content = document.getElementById("content");
+    content.innerHTML = "";
+
+    if (!song) {
+      const msg = document.createElement("p");
+      msg.className = "subtext";
+      msg.textContent = "Track not found.";
+      const back = document.createElement("a");
+      back.className = "back-link";
+      back.href = "music.html";
+      back.textContent = "← Back to Music";
+      content.appendChild(msg);
+      content.appendChild(back);
+    } else {
+      const cover = document.createElement("div");
+      cover.className = "track-cover";
+      if (song.cover) {
+        const img = document.createElement("img");
+        img.src = song.cover;
+        img.alt = song.title;
+        cover.appendChild(img);
+      } else {
+        const span = document.createElement("span");
+        span.textContent = song.title;
+        cover.appendChild(span);
+      }
+
+      const title = document.createElement("h1");
+      title.className = "track-title";
+      title.textContent = song.title;
+
+      const sub = document.createElement("p");
+      sub.className = "track-sub";
+      sub.textContent = "Choose where to listen";
+
+      const list = document.createElement("div");
+      list.className = "link-list";
+
+      const platforms = [
+        ["Spotify", song.spotify],
+        ["Apple Music", song.appleMusic],
+        ["SoundCloud", song.soundcloud],
+        ["Amazon Music", song.amazonMusic],
+      ];
+
+      let anyLinks = false;
+      platforms.forEach(([label, url]) => {
+        if (url) {
+          anyLinks = true;
+          const a = document.createElement("a");
+          a.href = url;
+          a.target = "_blank";
+          a.rel = "noopener";
+          a.textContent = label;
+          list.appendChild(a);
+        }
+      });
+
+      content.appendChild(cover);
+      content.appendChild(title);
+      content.appendChild(sub);
+
+      if (anyLinks) {
+        content.appendChild(list);
+      } else {
+        const soon = document.createElement("p");
+        soon.className = "subtext";
+        soon.textContent = "Streaming links coming soon.";
+        content.appendChild(soon);
+      }
+
+      const back = document.createElement("a");
+      back.className = "back-link";
+      back.href = "music.html";
+      back.textContent = "← Back to Music";
+      content.appendChild(back);
+    }
+  </script>
+</body>
+</html>

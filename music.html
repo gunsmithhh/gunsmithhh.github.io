@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Music — Gunnar Goldsmith</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="wordmark" href="index.html">Gunnar Goldsmith</a>
+  </header>
+  <main>
+    <h1 class="page-title">Music</h1>
+    <div id="grid" class="music-grid"></div>
+    <p class="subtext">More singles drop here as they release.</p>
+    <div class="link-list" style="margin-top: 8px;">
+      <a href="https://open.spotify.com/artist/3gH5fmM13ZXpUbEJU6toYk" target="_blank" rel="noopener">Spotify</a>
+      <a href="https://music.apple.com/us/artist/gunnar/1773505145" target="_blank" rel="noopener">Apple Music</a>
+      <a href="https://soundcloud.com/user-57080815" target="_blank" rel="noopener">SoundCloud</a>
+      <a href="https://www.mixcloud.com/gunnargoldsmith" target="_blank" rel="noopener">Mixcloud — DJ Sets</a>
+    </div>
+  </main>
+
+  <script src="js/songs.js"></script>
+  <script>
+    const grid = document.getElementById("grid");
+    SONGS.forEach((song) => {
+      const card = document.createElement("a");
+      card.className = "cover-card";
+      card.href = `listen.html?id=${encodeURIComponent(song.id)}`;
+
+      const art = document.createElement("div");
+      art.className = "cover-art";
+      if (song.cover) {
+        const img = document.createElement("img");
+        img.src = song.cover;
+        img.alt = song.title;
+        art.appendChild(img);
+      } else {
+        const span = document.createElement("span");
+        span.textContent = song.title;
+        art.appendChild(span);
+      }
+
+      const label = document.createElement("div");
+      label.className = "cover-label";
+      label.textContent = song.title;
+
+      card.appendChild(art);
+      card.appendChild(label);
+      grid.appendChild(card);
+    });
+  </script>
+</body>
+</html>

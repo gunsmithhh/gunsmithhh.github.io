@@ -1,0 +1,282 @@
+:root {
+  --bg: #ffffff;
+  --ink: #111111;
+  --muted: #6b6b6b;
+  --gold: #b3892f;
+  --gold-soft: #f2e8d5;
+  --border: #e6e6e6;
+  --max: 720px;
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: var(--bg);
+  color: var(--ink);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.site-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 28px 24px 0;
+}
+
+.wordmark {
+  font-size: 14px;
+  letter-spacing: 0.28em;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.wordmark:hover {
+  color: var(--gold);
+}
+
+main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 24px 64px;
+}
+
+/* ---------- Landing bubbles ---------- */
+
+.intro {
+  text-align: center;
+  margin-bottom: 56px;
+}
+
+.intro h1 {
+  font-size: 15px;
+  letter-spacing: 0.32em;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin: 0 0 8px;
+}
+
+.intro p {
+  font-size: 13px;
+  color: var(--muted);
+  margin: 0;
+  letter-spacing: 0.02em;
+}
+
+.bubbles {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.bubble {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  border: 1px solid var(--ink);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 13px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  font-weight: 600;
+  transition: transform 0.25s ease, background 0.25s ease, color 0.25s ease, border-color 0.25s ease;
+}
+
+.bubble span {
+  padding: 0 20px;
+}
+
+.bubble:hover {
+  transform: translateY(-6px);
+  background: var(--ink);
+  color: #fff;
+  border-color: var(--ink);
+}
+
+@media (max-width: 560px) {
+  .bubbles { gap: 24px; }
+  .bubble { width: 148px; height: 148px; font-size: 12px; }
+}
+
+/* ---------- Simple sub-page layout ---------- */
+
+.page-title {
+  font-size: 13px;
+  letter-spacing: 0.28em;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin: 0 0 40px;
+  text-align: center;
+}
+
+.link-list {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  width: 100%;
+  max-width: 340px;
+}
+
+.link-list a {
+  border: 1px solid var(--ink);
+  border-radius: 999px;
+  padding: 14px 20px;
+  text-align: center;
+  font-size: 13px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  font-weight: 600;
+  transition: background 0.2s ease, color 0.2s ease;
+}
+
+.link-list a:hover {
+  background: var(--ink);
+  color: #fff;
+}
+
+.subtext {
+  margin-top: 32px;
+  font-size: 12px;
+  color: var(--muted);
+  text-align: center;
+  max-width: 340px;
+  line-height: 1.6;
+}
+
+/* ---------- Music grid ---------- */
+
+.music-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 20px;
+  width: 100%;
+  max-width: var(--max);
+}
+
+.cover-card {
+  display: block;
+}
+
+.cover-art {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  border-radius: 8px;
+  background: linear-gradient(145deg, var(--gold-soft), var(--gold));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+  text-align: center;
+  transition: transform 0.2s ease;
+}
+
+.cover-art img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.cover-art span {
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  color: #fff;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.25);
+}
+
+.cover-card:hover .cover-art {
+  transform: scale(1.03);
+}
+
+.cover-label {
+  margin-top: 10px;
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.cover-label .kind {
+  display: block;
+  color: var(--muted);
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  margin-top: 2px;
+}
+
+/* ---------- Track page ---------- */
+
+.track-cover {
+  width: 220px;
+  height: 220px;
+  border-radius: 12px;
+  background: linear-gradient(145deg, var(--gold-soft), var(--gold));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 28px;
+}
+
+.track-cover img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.track-cover span {
+  font-size: 16px;
+  font-weight: 700;
+  color: #fff;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.25);
+}
+
+.track-title {
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  margin: 0 0 4px;
+  text-align: center;
+}
+
+.track-sub {
+  font-size: 12px;
+  color: var(--muted);
+  margin: 0 0 32px;
+  text-align: center;
+}
+
+.back-link {
+  margin-top: 40px;
+  font-size: 12px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.back-link:hover {
+  color: var(--ink);
+}
