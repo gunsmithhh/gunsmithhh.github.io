@@ -37,10 +37,26 @@ a {
 }
 
 .wordmark {
+  display: flex;
+  align-items: center;
+  gap: 8px;
   font-size: 14px;
   letter-spacing: 0.28em;
   text-transform: uppercase;
   font-weight: 600;
+}
+
+.wordmark-logo {
+  width: 22px;
+  height: 22px;
+  display: block;
+}
+
+.hero-logo {
+  width: 64px;
+  height: 64px;
+  display: block;
+  margin: 0 auto 16px;
 }
 
 .wordmark:hover {
