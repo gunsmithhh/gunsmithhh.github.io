@@ -12,6 +12,7 @@ const SONGS = [
     soundcloud: "https://soundcloud.com/user-57080815/funkybasss",
     youtubeMusic: "https://music.youtube.com/playlist?list=OLAK5uy_lzEC69xqZMR4eQIXrkrOLEVoj7aH2x73U",
     amazonMusic: "https://music.amazon.fr/albums/B0DJXWQ88J?trackAsin=B0DJY2L8NH",
+    tidal: "https://tidal.com/album/392891531/u",
   },
   {
     id: "soeur",
@@ -32,6 +33,7 @@ const SONGS = [
     soundcloud: "",
     youtubeMusic: "https://music.youtube.com/watch?v=xG0ZVu2_oxI",
     amazonMusic: "https://music.amazon.fr/albums/B0DKTVFQGB?trackAsin=B0DKTTZRYG",
+    tidal: "https://tidal.com/album/395387739/u",
   },
   {
     id: "hahahouse",
@@ -42,5 +44,6 @@ const SONGS = [
     soundcloud: "",
     youtubeMusic: "https://music.youtube.com/watch?v=AV0Hf8gLlsk",
     amazonMusic: "https://music.amazon.fr/albums/B0DLLD8DDW?trackAsin=B0DLLJH2PV",
+    tidal: "https://tidal.com/album/396917485/u",
   },
 ];
