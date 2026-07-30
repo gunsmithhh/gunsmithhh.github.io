@@ -23,6 +23,7 @@ const SONGS = [
     soundcloud: "https://soundcloud.com/user-57080815/sr",
     youtubeMusic: "https://music.youtube.com/watch?v=jD_FClm838U",
     amazonMusic: "https://music.amazon.fr/albums/B0DPLRM7HB?trackAsin=B0DPLRLG2Y",
+    tidal: "https://tidal.com/album/403732633/u",
   },
   {
     id: "glitch",
