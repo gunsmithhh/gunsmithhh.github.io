@@ -487,14 +487,6 @@ main.ugc-main {
   background: linear-gradient(160deg, #2b2416, #111111);
 }
 
-.ugc-youtube {
-  background: linear-gradient(160deg, #3a1414, #111111);
-}
-
-.ugc-tiktok {
-  background: linear-gradient(160deg, #101820, #111111);
-}
-
 @media (max-width: 640px) {
   .ugc-grid { grid-template-columns: 1fr; }
 }
