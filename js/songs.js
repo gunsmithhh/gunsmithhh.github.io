@@ -21,7 +21,7 @@ const SONGS = [
     appleMusic: "https://music.apple.com/us/album/sœur-feat-freyja-single/1784006833",
     soundcloud: "https://soundcloud.com/user-57080815/sr",
     youtubeMusic: "https://music.youtube.com/watch?v=jD_FClm838U",
-    amazonMusic: "",
+    amazonMusic: "https://music.amazon.fr/albums/B0DPLRM7HB?trackAsin=B0DPLRLG2Y",
   },
   {
     id: "glitch",
@@ -31,7 +31,7 @@ const SONGS = [
     appleMusic: "https://music.apple.com/us/album/glitch-single/1776106483",
     soundcloud: "",
     youtubeMusic: "https://music.youtube.com/watch?v=xG0ZVu2_oxI",
-    amazonMusic: "",
+    amazonMusic: "https://music.amazon.fr/albums/B0DKTVFQGB?trackAsin=B0DKTTZRYG",
   },
   {
     id: "hahahouse",
@@ -41,6 +41,6 @@ const SONGS = [
     appleMusic: "https://music.apple.com/us/album/hahahouse-single/1777374496",
     soundcloud: "",
     youtubeMusic: "https://music.youtube.com/watch?v=AV0Hf8gLlsk",
-    amazonMusic: "",
+    amazonMusic: "https://music.amazon.fr/albums/B0DLLD8DDW?trackAsin=B0DLLJH2PV",
   },
 ];
