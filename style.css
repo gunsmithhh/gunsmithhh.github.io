@@ -422,9 +422,26 @@ main.ugc-main {
   opacity: 0.55;
 }
 
+.ugc-tile-img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+}
+
+.ugc-tile--photo::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0) 55%);
+  z-index: 1;
+}
+
 .ugc-label {
   position: relative;
-  z-index: 1;
+  z-index: 2;
   color: #fff;
   font-size: 14px;
   letter-spacing: 0.2em;
