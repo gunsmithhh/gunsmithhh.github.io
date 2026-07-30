@@ -11,7 +11,7 @@ const SONGS = [
     appleMusic: "https://music.apple.com/us/album/funkybasss-single/1773693023",
     soundcloud: "https://soundcloud.com/user-57080815/funkybasss",
     youtubeMusic: "https://music.youtube.com/playlist?list=OLAK5uy_lzEC69xqZMR4eQIXrkrOLEVoj7aH2x73U",
-    amazonMusic: "",
+    amazonMusic: "https://music.amazon.fr/albums/B0DJXWQ88J?trackAsin=B0DJY2L8NH",
   },
   {
     id: "soeur",
