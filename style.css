@@ -236,8 +236,9 @@ main {
 /* ---------- Music grid ---------- */
 
 .music-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 20px;
   width: 100%;
   max-width: var(--max);
@@ -245,6 +246,7 @@ main {
 
 .cover-card {
   display: block;
+  flex: 0 1 150px;
 }
 
 .cover-art {
