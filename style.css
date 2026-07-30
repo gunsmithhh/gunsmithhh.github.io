@@ -6,6 +6,9 @@
   --gold-soft: #f2e8d5;
   --border: #e6e6e6;
   --max: 720px;
+  --header-pad-top: 32px;
+  --font-body: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  --font-display: "Space Grotesk", var(--font-body);
 }
 
 * { box-sizing: border-box; }
@@ -18,7 +21,7 @@ html, body {
 body {
   background: var(--bg);
   color: var(--ink);
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-family: var(--font-body);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -29,17 +32,32 @@ a {
   text-decoration: none;
 }
 
+a:focus-visible,
+button:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    transition-duration: 0.001ms !important;
+    animation-duration: 0.001ms !important;
+  }
+}
+
 .site-header {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 28px 24px 0;
+  padding: var(--header-pad-top) 24px 0;
 }
 
 .wordmark {
   display: flex;
   align-items: center;
   gap: 8px;
+  font-family: var(--font-display);
   font-size: 14px;
   letter-spacing: 0.28em;
   text-transform: uppercase;
@@ -80,6 +98,7 @@ main {
 }
 
 .intro h1 {
+  font-family: var(--font-display);
   font-size: 15px;
   letter-spacing: 0.32em;
   text-transform: uppercase;
@@ -349,7 +368,7 @@ body.ugc-body {
 }
 
 .ugc-header {
-  padding: 32px 24px 0;
+  padding: var(--header-pad-top) 24px 0;
 }
 
 .ugc-header .wordmark {
@@ -372,6 +391,7 @@ main.ugc-main {
 }
 
 .ugc-intro h1 {
+  font-family: var(--font-display);
   font-size: 13px;
   letter-spacing: 0.3em;
   text-transform: uppercase;
