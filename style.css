@@ -121,6 +121,20 @@ main {
   align-items: center;
 }
 
+.tiny-link {
+  display: block;
+  margin-top: 40px;
+  font-size: 10px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--muted);
+  text-align: center;
+}
+
+.tiny-link:hover {
+  color: var(--ink);
+}
+
 .bubble {
   width: 180px;
   height: 180px;
