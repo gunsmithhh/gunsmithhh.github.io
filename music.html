@@ -72,5 +72,18 @@
       grid.appendChild(card);
     });
   </script>
+  <div id="google_translate_element" class="goog-hidden"></div>
+  <script>
+    (function () {
+      var lang = (navigator.language || navigator.userLanguage || "en").slice(0, 2).toLowerCase();
+      if (lang !== "en") {
+        document.cookie = "googtrans=/en/" + lang + "; path=/";
+      }
+    })();
+    function googleTranslateElementInit() {
+      new google.translate.TranslateElement({ pageLanguage: "en", autoDisplay: true }, "google_translate_element");
+    }
+  </script>
+  <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit" async></script>
 </body>
 </html>
