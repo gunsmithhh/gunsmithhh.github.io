@@ -1,41 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
 <meta charset="UTF-8">
-<script>
-(function () {
-  if (location.hostname.indexOf("translate.goog") !== -1) return;
-  var lang = (navigator.language || navigator.userLanguage || "en").slice(0, 2).toLowerCase();
-  if (lang === "en") return;
-  if (lang === "fr") {
-    var frPath = location.pathname === "/" ? "/index.html" : location.pathname;
-    location.replace("/fr" + frPath + location.search);
-    return;
-  }
-  var proxyHost = location.hostname.replace(/\./g, "-") + ".translate.goog";
-  var url = "https://" + proxyHost + location.pathname + location.search +
-    (location.search ? "&" : "?") + "_x_tr_sl=en&_x_tr_tl=" + lang + "&_x_tr_hl=" + lang;
-  location.replace(url);
-})();
-</script>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Gunnar Goldsmith</title>
-<meta name="description" content="Gunnar Goldsmith — official site. Music, merch, DJ sets, and content.">
-<link rel="canonical" href="https://gunnargoldsmith.com/">
+<meta name="description" content="Gunnar Goldsmith — site officiel. Musique, merch, sets DJ et contenu.">
+<link rel="canonical" href="https://gunnargoldsmith.com/fr/">
 <link rel="alternate" hreflang="en" href="https://gunnargoldsmith.com/">
 <link rel="alternate" hreflang="fr" href="https://gunnargoldsmith.com/fr/">
 <link rel="alternate" hreflang="x-default" href="https://gunnargoldsmith.com/">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Gunnar Goldsmith">
-<meta property="og:description" content="Gunnar Goldsmith — official site. Music, merch, DJ sets, and content.">
-<meta property="og:url" content="https://gunnargoldsmith.com/">
+<meta property="og:description" content="Gunnar Goldsmith — site officiel. Musique, merch, sets DJ et contenu.">
+<meta property="og:url" content="https://gunnargoldsmith.com/fr/">
 <meta property="og:image" content="https://gunnargoldsmith.com/assets/covers/funkybasss.jpg">
-<link rel="icon" type="image/png" href="assets/favicon-32.png">
-<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+<link rel="icon" type="image/png" href="../assets/favicon-32.png">
+<link rel="apple-touch-icon" href="../assets/apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="../style.css">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -56,13 +40,13 @@
 <body>
   <main>
     <div class="intro">
-      <img class="hero-logo" src="assets/logo.png" alt="">
+      <img class="hero-logo" src="../assets/logo.png" alt="">
       <h1 translate="no">Gunnar Goldsmith</h1>
     </div>
     <div class="bubbles">
-      <a class="bubble" href="music.html"><span>Music</span></a>
+      <a class="bubble" href="music.html"><span>Musique</span></a>
       <a class="bubble" href="merch.html"><span>Merch</span></a>
-      <a class="bubble" href="content.html"><span>Projects</span></a>
+      <a class="bubble" href="content.html"><span>Projets</span></a>
       <a class="bubble" href="dj.html"><span>DJ</span></a>
       <a class="bubble" href="aibot.html"><span translate="no">AI Bot</span></a>
     </div>

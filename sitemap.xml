@@ -1,9 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://gunnargoldsmith.com/</loc></url>
-  <url><loc>https://gunnargoldsmith.com/music.html</loc></url>
-  <url><loc>https://gunnargoldsmith.com/merch.html</loc></url>
-  <url><loc>https://gunnargoldsmith.com/content.html</loc></url>
-  <url><loc>https://gunnargoldsmith.com/dj.html</loc></url>
-  <url><loc>https://gunnargoldsmith.com/aibot.html</loc></url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://gunnargoldsmith.com/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gunnargoldsmith.com/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://gunnargoldsmith.com/fr/" />
+  </url>
+  <url>
+    <loc>https://gunnargoldsmith.com/music.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gunnargoldsmith.com/music.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://gunnargoldsmith.com/fr/music.html" />
+  </url>
+  <url>
+    <loc>https://gunnargoldsmith.com/merch.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gunnargoldsmith.com/merch.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://gunnargoldsmith.com/fr/merch.html" />
+  </url>
+  <url>
+    <loc>https://gunnargoldsmith.com/content.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gunnargoldsmith.com/content.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://gunnargoldsmith.com/fr/content.html" />
+  </url>
+  <url>
+    <loc>https://gunnargoldsmith.com/dj.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gunnargoldsmith.com/dj.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://gunnargoldsmith.com/fr/dj.html" />
+  </url>
+  <url>
+    <loc>https://gunnargoldsmith.com/aibot.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gunnargoldsmith.com/aibot.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://gunnargoldsmith.com/fr/aibot.html" />
+  </url>
+  <url>
+    <loc>https://gunnargoldsmith.com/fr/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gunnargoldsmith.com/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://gunnargoldsmith.com/fr/" />
+  </url>
+  <url>
+    <loc>https://gunnargoldsmith.com/fr/music.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gunnargoldsmith.com/music.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://gunnargoldsmith.com/fr/music.html" />
+  </url>
+  <url>
+    <loc>https://gunnargoldsmith.com/fr/merch.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gunnargoldsmith.com/merch.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://gunnargoldsmith.com/fr/merch.html" />
+  </url>
+  <url>
+    <loc>https://gunnargoldsmith.com/fr/content.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gunnargoldsmith.com/content.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://gunnargoldsmith.com/fr/content.html" />
+  </url>
+  <url>
+    <loc>https://gunnargoldsmith.com/fr/dj.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gunnargoldsmith.com/dj.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://gunnargoldsmith.com/fr/dj.html" />
+  </url>
+  <url>
+    <loc>https://gunnargoldsmith.com/fr/aibot.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gunnargoldsmith.com/aibot.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://gunnargoldsmith.com/fr/aibot.html" />
+  </url>
 </urlset>

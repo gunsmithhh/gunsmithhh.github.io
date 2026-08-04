@@ -1,47 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
 <meta charset="UTF-8">
-<script>
-(function () {
-  if (location.hostname.indexOf("translate.goog") !== -1) return;
-  var lang = (navigator.language || navigator.userLanguage || "en").slice(0, 2).toLowerCase();
-  if (lang === "en") return;
-  if (lang === "fr") {
-    var frPath = location.pathname === "/" ? "/index.html" : location.pathname;
-    location.replace("/fr" + frPath + location.search);
-    return;
-  }
-  var proxyHost = location.hostname.replace(/\./g, "-") + ".translate.goog";
-  var url = "https://" + proxyHost + location.pathname + location.search +
-    (location.search ? "&" : "?") + "_x_tr_sl=en&_x_tr_tl=" + lang + "&_x_tr_hl=" + lang;
-  location.replace(url);
-})();
-</script>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Music — Gunnar Goldsmith</title>
-<meta name="description" content="Listen to music by Gunnar Goldsmith — stream on Spotify, Apple Music, SoundCloud, and more.">
-<link rel="canonical" href="https://gunnargoldsmith.com/music.html">
+<title>Musique — Gunnar Goldsmith</title>
+<meta name="description" content="Écoutez la musique de Gunnar Goldsmith — disponible sur Spotify, Apple Music, SoundCloud et plus encore.">
+<link rel="canonical" href="https://gunnargoldsmith.com/fr/music.html">
 <link rel="alternate" hreflang="en" href="https://gunnargoldsmith.com/music.html">
 <link rel="alternate" hreflang="fr" href="https://gunnargoldsmith.com/fr/music.html">
 <link rel="alternate" hreflang="x-default" href="https://gunnargoldsmith.com/music.html">
-<link rel="icon" type="image/png" href="assets/favicon-32.png">
-<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+<link rel="icon" type="image/png" href="../assets/favicon-32.png">
+<link rel="apple-touch-icon" href="../assets/apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="../style.css">
 </head>
 <body class="music-body">
   <header class="site-header">
-    <a class="wordmark" href="index.html"><img class="wordmark-logo" src="assets/logo.png" alt=""><span translate="no">Gunnar Goldsmith</span></a>
+    <a class="wordmark" href="index.html"><img class="wordmark-logo" src="../assets/logo.png" alt=""><span translate="no">Gunnar Goldsmith</span></a>
   </header>
   <main class="music-main">
     <div id="hero"></div>
     <div id="grid" class="music-grid"></div>
   </main>
 
-  <script src="js/songs.js"></script>
+  <script src="../js/songs.js"></script>
   <script>
     const [featured, ...rest] = SONGS;
     const heroEl = document.getElementById("hero");
@@ -51,7 +35,7 @@
       art.className = "cover-art";
       if (song.cover) {
         const img = document.createElement("img");
-        img.src = song.cover;
+        img.src = "../" + song.cover;
         img.alt = song.title;
         art.appendChild(img);
       } else {

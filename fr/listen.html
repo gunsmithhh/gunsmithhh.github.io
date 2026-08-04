@@ -1,45 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
 <meta charset="UTF-8">
-<script>
-(function () {
-  if (location.hostname.indexOf("translate.goog") !== -1) return;
-  var lang = (navigator.language || navigator.userLanguage || "en").slice(0, 2).toLowerCase();
-  if (lang === "en") return;
-  if (lang === "fr") {
-    var frPath = location.pathname === "/" ? "/index.html" : location.pathname;
-    location.replace("/fr" + frPath + location.search);
-    return;
-  }
-  var proxyHost = location.hostname.replace(/\./g, "-") + ".translate.goog";
-  var url = "https://" + proxyHost + location.pathname + location.search +
-    (location.search ? "&" : "?") + "_x_tr_sl=en&_x_tr_tl=" + lang + "&_x_tr_hl=" + lang;
-  location.replace(url);
-})();
-</script>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Listen — Gunnar Goldsmith</title>
-<meta name="description" content="Choose where to stream Gunnar Goldsmith's music — Spotify, Apple Music, SoundCloud, Amazon Music, and Tidal.">
+<title>Écouter — Gunnar Goldsmith</title>
+<meta name="description" content="Choisissez où écouter la musique de Gunnar Goldsmith — Spotify, Apple Music, SoundCloud, Amazon Music et Tidal.">
 <link rel="alternate" hreflang="en" href="https://gunnargoldsmith.com/listen.html">
 <link rel="alternate" hreflang="fr" href="https://gunnargoldsmith.com/fr/listen.html">
 <link rel="alternate" hreflang="x-default" href="https://gunnargoldsmith.com/listen.html">
-<link rel="icon" type="image/png" href="assets/favicon-32.png">
-<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+<link rel="icon" type="image/png" href="../assets/favicon-32.png">
+<link rel="apple-touch-icon" href="../assets/apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="../style.css">
 </head>
 <body>
   <header class="site-header">
-    <a class="wordmark" href="index.html"><img class="wordmark-logo" src="assets/logo.png" alt=""><span translate="no">Gunnar Goldsmith</span></a>
+    <a class="wordmark" href="index.html"><img class="wordmark-logo" src="../assets/logo.png" alt=""><span translate="no">Gunnar Goldsmith</span></a>
   </header>
   <main id="content">
-    <p class="subtext">Loading&hellip;</p>
+    <p class="subtext">Chargement&hellip;</p>
   </main>
 
-  <script src="js/songs.js"></script>
+  <script src="../js/songs.js"></script>
   <script>
     const params = new URLSearchParams(window.location.search);
     const id = params.get("id");
@@ -50,11 +34,11 @@
     if (!song) {
       const msg = document.createElement("p");
       msg.className = "subtext";
-      msg.textContent = "Track not found.";
+      msg.textContent = "Morceau introuvable.";
       const back = document.createElement("a");
       back.className = "back-link";
       back.href = "music.html";
-      back.textContent = "← Back to Music";
+      back.textContent = "← Retour à la musique";
       content.appendChild(msg);
       content.appendChild(back);
     } else {
@@ -62,7 +46,7 @@
       cover.className = "track-cover";
       if (song.cover) {
         const img = document.createElement("img");
-        img.src = song.cover;
+        img.src = "../" + song.cover;
         img.alt = song.title;
         cover.appendChild(img);
       } else {
@@ -78,7 +62,7 @@
 
       const sub = document.createElement("p");
       sub.className = "track-sub";
-      sub.textContent = "Choose where to listen";
+      sub.textContent = "Choisissez où écouter";
 
       const list = document.createElement("div");
       list.className = "link-list";
@@ -114,14 +98,14 @@
       } else {
         const soon = document.createElement("p");
         soon.className = "subtext";
-        soon.textContent = "Streaming links coming soon.";
+        soon.textContent = "Liens de streaming bientôt disponibles.";
         content.appendChild(soon);
       }
 
       const back = document.createElement("a");
       back.className = "back-link";
       back.href = "music.html";
-      back.textContent = "← Back to Music";
+      back.textContent = "← Retour à la musique";
       content.appendChild(back);
     }
   </script>

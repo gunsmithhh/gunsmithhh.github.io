@@ -7,6 +7,11 @@
   if (location.hostname.indexOf("translate.goog") !== -1) return;
   var lang = (navigator.language || navigator.userLanguage || "en").slice(0, 2).toLowerCase();
   if (lang === "en") return;
+  if (lang === "fr") {
+    var frPath = location.pathname === "/" ? "/index.html" : location.pathname;
+    location.replace("/fr" + frPath + location.search);
+    return;
+  }
   var proxyHost = location.hostname.replace(/\./g, "-") + ".translate.goog";
   var url = "https://" + proxyHost + location.pathname + location.search +
     (location.search ? "&" : "?") + "_x_tr_sl=en&_x_tr_tl=" + lang + "&_x_tr_hl=" + lang;
@@ -17,6 +22,9 @@
 <title>Projects — Gunnar Goldsmith</title>
 <meta name="description" content="Gunnar Goldsmith's project work — automobile and real estate.">
 <link rel="canonical" href="https://gunnargoldsmith.com/content.html">
+<link rel="alternate" hreflang="en" href="https://gunnargoldsmith.com/content.html">
+<link rel="alternate" hreflang="fr" href="https://gunnargoldsmith.com/fr/content.html">
+<link rel="alternate" hreflang="x-default" href="https://gunnargoldsmith.com/content.html">
 <link rel="icon" type="image/png" href="assets/favicon-32.png">
 <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
