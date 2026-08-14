@@ -514,6 +514,10 @@ main.ugc-main {
   background: linear-gradient(160deg, #2b2416, #111111);
 }
 
+.ugc-aibot {
+  background: linear-gradient(160deg, #1c2b2e, #111111);
+}
+
 @media (max-width: 640px) {
   .ugc-grid { grid-template-columns: 1fr; }
 }
