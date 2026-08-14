@@ -379,20 +379,12 @@ main {
 /* ---------- Content / UGC page (La Frame Media style) ---------- */
 
 body.ugc-body {
-  background: #0a0a0a;
-  color: #f5f5f5;
+  background: var(--bg);
+  color: var(--ink);
 }
 
 .ugc-header {
   padding: var(--header-pad-top) 24px 0;
-}
-
-.ugc-header .wordmark {
-  color: #f5f5f5;
-}
-
-.ugc-header .wordmark:hover {
-  color: #cfa955;
 }
 
 main.ugc-main {
@@ -417,14 +409,14 @@ main.ugc-main {
 
 .ugc-intro p {
   font-size: 13px;
-  color: #a8a8a8;
+  color: var(--muted);
   margin: 0;
   font-style: italic;
 }
 
 .ugc-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 4px;
   width: 100%;
   max-width: 900px;
