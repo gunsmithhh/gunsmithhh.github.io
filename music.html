@@ -4,18 +4,11 @@
 <meta charset="UTF-8">
 <script>
 (function () {
-  if (location.hostname.indexOf("translate.goog") !== -1) return;
   var lang = (navigator.language || navigator.userLanguage || "en").slice(0, 2).toLowerCase();
-  if (lang === "en") return;
   if (lang === "fr") {
     var frPath = location.pathname === "/" ? "/index.html" : location.pathname;
     location.replace("/fr" + frPath + location.search);
-    return;
   }
-  var proxyHost = location.hostname.replace(/\./g, "-") + ".translate.goog";
-  var url = "https://" + proxyHost + location.pathname + location.search +
-    (location.search ? "&" : "?") + "_x_tr_sl=en&_x_tr_tl=" + lang + "&_x_tr_hl=" + lang;
-  location.replace(url);
 })();
 </script>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">

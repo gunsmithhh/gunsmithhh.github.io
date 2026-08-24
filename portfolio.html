@@ -4,18 +4,11 @@
 <meta charset="UTF-8">
 <script>
 (function () {
-  if (location.hostname.indexOf("translate.goog") !== -1) return;
   var lang = (navigator.language || navigator.userLanguage || "en").slice(0, 2).toLowerCase();
-  if (lang === "en") return;
   if (lang === "fr") {
     var frPath = location.pathname === "/" ? "/index.html" : location.pathname;
     location.replace("/fr" + frPath + location.search);
-    return;
   }
-  var proxyHost = location.hostname.replace(/\./g, "-") + ".translate.goog";
-  var url = "https://" + proxyHost + location.pathname + location.search +
-    (location.search ? "&" : "?") + "_x_tr_sl=en&_x_tr_tl=" + lang + "&_x_tr_hl=" + lang;
-  location.replace(url);
 })();
 </script>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -38,14 +31,21 @@
   </header>
   <main>
     <h1 class="page-title">Portfolio</h1>
-    <div class="photo-grid">
-      <img src="assets/portfolio/cookiegolds.jpeg" alt="">
-      <img src="assets/portfolio/cookiev2.jpeg" alt="">
-      <img src="assets/portfolio/PP1.jpeg" alt="">
-      <img src="assets/portfolio/PP2.jpeg" alt="">
-      <img src="assets/portfolio/PP3.jpeg" alt="">
-      <img src="assets/portfolio/PP4.jpeg" alt="">
-    </div>
+    <section class="photo-section">
+      <h2 class="photo-section-title">Cookie</h2>
+      <div class="photo-grid">
+        <img src="assets/portfolio/cookiegolds.jpeg" alt="Cookie the terrier panting in a red collar, side profile against a cloudy sky" loading="lazy">
+        <img src="assets/portfolio/cookiev2.jpeg" alt="Cookie the terrier sitting on grass, looking toward the camera" loading="lazy">
+      </div>
+    </section>
+    <section class="photo-section">
+      <h2 class="photo-section-title">Paragliding</h2>
+      <div class="photo-grid">
+        <img src="assets/portfolio/PP1.jpeg" alt="A paraglider under a green, orange, and blue wing against a cloudy sky" loading="lazy">
+        <img src="assets/portfolio/PP2.jpeg" alt="A paraglider flying past a rocky cliff edge with a tree in silhouette" loading="lazy">
+        <img src="assets/portfolio/PP4.jpeg" alt="A paragliding pilot in a yellow helmet and mirrored goggles, geared up before takeoff" loading="lazy">
+      </div>
+    </section>
   </main>
 </body>
 </html>

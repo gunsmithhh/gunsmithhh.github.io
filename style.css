@@ -500,13 +500,26 @@ main.ugc-main {
 
 /* ---------- Portfolio page ---------- */
 
+.photo-section {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto 40px;
+}
+
+.photo-section-title {
+  font-size: 11px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: var(--muted);
+  margin: 0 0 12px;
+}
+
 .photo-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 4px;
   width: 100%;
-  max-width: 900px;
-  margin: 0 auto 32px;
 }
 
 .photo-grid img {
