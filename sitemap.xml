@@ -31,6 +31,11 @@
     <xhtml:link rel="alternate" hreflang="fr" href="https://gunnargoldsmith.com/fr/aibot.html" />
   </url>
   <url>
+    <loc>https://gunnargoldsmith.com/portfolio.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gunnargoldsmith.com/portfolio.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://gunnargoldsmith.com/fr/portfolio.html" />
+  </url>
+  <url>
     <loc>https://gunnargoldsmith.com/fr/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://gunnargoldsmith.com/" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://gunnargoldsmith.com/fr/" />
@@ -59,5 +64,10 @@
     <loc>https://gunnargoldsmith.com/fr/aibot.html</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://gunnargoldsmith.com/aibot.html" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://gunnargoldsmith.com/fr/aibot.html" />
+  </url>
+  <url>
+    <loc>https://gunnargoldsmith.com/fr/portfolio.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gunnargoldsmith.com/portfolio.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://gunnargoldsmith.com/fr/portfolio.html" />
   </url>
 </urlset>
