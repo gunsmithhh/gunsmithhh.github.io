@@ -4,10 +4,11 @@
 <meta charset="UTF-8">
 <script>
 (function () {
+  var supported = ["fr", "de", "es", "pt", "it", "ja", "zh", "ru"];
   var lang = (navigator.language || navigator.userLanguage || "en").slice(0, 2).toLowerCase();
-  if (lang === "fr") {
-    var frPath = location.pathname === "/" ? "/index.html" : location.pathname;
-    location.replace("/fr" + frPath + location.search);
+  if (supported.indexOf(lang) !== -1) {
+    var path = location.pathname === "/" ? "/index.html" : location.pathname;
+    location.replace("/" + lang + path + location.search);
   }
 })();
 </script>
@@ -16,6 +17,13 @@
 <meta name="description" content="Choose where to stream Gunnar Goldsmith's music — Spotify, Apple Music, SoundCloud, Amazon Music, and Tidal.">
 <link rel="alternate" hreflang="en" href="https://gunnargoldsmith.com/listen.html">
 <link rel="alternate" hreflang="fr" href="https://gunnargoldsmith.com/fr/listen.html">
+<link rel="alternate" hreflang="de" href="https://gunnargoldsmith.com/de/listen.html">
+<link rel="alternate" hreflang="es" href="https://gunnargoldsmith.com/es/listen.html">
+<link rel="alternate" hreflang="pt" href="https://gunnargoldsmith.com/pt/listen.html">
+<link rel="alternate" hreflang="it" href="https://gunnargoldsmith.com/it/listen.html">
+<link rel="alternate" hreflang="ja" href="https://gunnargoldsmith.com/ja/listen.html">
+<link rel="alternate" hreflang="zh" href="https://gunnargoldsmith.com/zh/listen.html">
+<link rel="alternate" hreflang="ru" href="https://gunnargoldsmith.com/ru/listen.html">
 <link rel="alternate" hreflang="x-default" href="https://gunnargoldsmith.com/listen.html">
 <link rel="icon" type="image/png" href="assets/favicon-32.png">
 <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">

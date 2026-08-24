@@ -4,40 +4,432 @@
     <loc>https://gunnargoldsmith.com/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://gunnargoldsmith.com/" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://gunnargoldsmith.com/fr/" />
-  </url>
-  <url>
-    <loc>https://gunnargoldsmith.com/music.html</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://gunnargoldsmith.com/music.html" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://gunnargoldsmith.com/fr/music.html" />
-  </url>
-  <url>
-    <loc>https://gunnargoldsmith.com/content.html</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://gunnargoldsmith.com/content.html" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://gunnargoldsmith.com/fr/content.html" />
-  </url>
-  <url>
-    <loc>https://gunnargoldsmith.com/portfolio.html</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://gunnargoldsmith.com/portfolio.html" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://gunnargoldsmith.com/fr/portfolio.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://gunnargoldsmith.com/de/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://gunnargoldsmith.com/es/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://gunnargoldsmith.com/pt/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://gunnargoldsmith.com/it/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gunnargoldsmith.com/ja/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://gunnargoldsmith.com/zh/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gunnargoldsmith.com/ru/" />
   </url>
   <url>
     <loc>https://gunnargoldsmith.com/fr/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://gunnargoldsmith.com/" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://gunnargoldsmith.com/fr/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://gunnargoldsmith.com/de/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://gunnargoldsmith.com/es/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://gunnargoldsmith.com/pt/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://gunnargoldsmith.com/it/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gunnargoldsmith.com/ja/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://gunnargoldsmith.com/zh/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gunnargoldsmith.com/ru/" />
+  </url>
+  <url>
+    <loc>https://gunnargoldsmith.com/de/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gunnargoldsmith.com/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://gunnargoldsmith.com/fr/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://gunnargoldsmith.com/de/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://gunnargoldsmith.com/es/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://gunnargoldsmith.com/pt/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://gunnargoldsmith.com/it/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gunnargoldsmith.com/ja/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://gunnargoldsmith.com/zh/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gunnargoldsmith.com/ru/" />
+  </url>
+  <url>
+    <loc>https://gunnargoldsmith.com/es/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gunnargoldsmith.com/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://gunnargoldsmith.com/fr/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://gunnargoldsmith.com/de/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://gunnargoldsmith.com/es/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://gunnargoldsmith.com/pt/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://gunnargoldsmith.com/it/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gunnargoldsmith.com/ja/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://gunnargoldsmith.com/zh/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gunnargoldsmith.com/ru/" />
+  </url>
+  <url>
+    <loc>https://gunnargoldsmith.com/pt/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gunnargoldsmith.com/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://gunnargoldsmith.com/fr/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://gunnargoldsmith.com/de/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://gunnargoldsmith.com/es/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://gunnargoldsmith.com/pt/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://gunnargoldsmith.com/it/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gunnargoldsmith.com/ja/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://gunnargoldsmith.com/zh/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gunnargoldsmith.com/ru/" />
+  </url>
+  <url>
+    <loc>https://gunnargoldsmith.com/it/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gunnargoldsmith.com/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://gunnargoldsmith.com/fr/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://gunnargoldsmith.com/de/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://gunnargoldsmith.com/es/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://gunnargoldsmith.com/pt/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://gunnargoldsmith.com/it/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gunnargoldsmith.com/ja/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://gunnargoldsmith.com/zh/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gunnargoldsmith.com/ru/" />
+  </url>
+  <url>
+    <loc>https://gunnargoldsmith.com/ja/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gunnargoldsmith.com/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://gunnargoldsmith.com/fr/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://gunnargoldsmith.com/de/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://gunnargoldsmith.com/es/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://gunnargoldsmith.com/pt/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://gunnargoldsmith.com/it/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gunnargoldsmith.com/ja/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://gunnargoldsmith.com/zh/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gunnargoldsmith.com/ru/" />
+  </url>
+  <url>
+    <loc>https://gunnargoldsmith.com/zh/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gunnargoldsmith.com/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://gunnargoldsmith.com/fr/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://gunnargoldsmith.com/de/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://gunnargoldsmith.com/es/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://gunnargoldsmith.com/pt/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://gunnargoldsmith.com/it/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gunnargoldsmith.com/ja/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://gunnargoldsmith.com/zh/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gunnargoldsmith.com/ru/" />
+  </url>
+  <url>
+    <loc>https://gunnargoldsmith.com/ru/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gunnargoldsmith.com/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://gunnargoldsmith.com/fr/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://gunnargoldsmith.com/de/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://gunnargoldsmith.com/es/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://gunnargoldsmith.com/pt/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://gunnargoldsmith.com/it/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gunnargoldsmith.com/ja/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://gunnargoldsmith.com/zh/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gunnargoldsmith.com/ru/" />
+  </url>
+  <url>
+    <loc>https://gunnargoldsmith.com/music.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gunnargoldsmith.com/music.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://gunnargoldsmith.com/fr/music.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://gunnargoldsmith.com/de/music.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://gunnargoldsmith.com/es/music.html" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://gunnargoldsmith.com/pt/music.html" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://gunnargoldsmith.com/it/music.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gunnargoldsmith.com/ja/music.html" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://gunnargoldsmith.com/zh/music.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gunnargoldsmith.com/ru/music.html" />
   </url>
   <url>
     <loc>https://gunnargoldsmith.com/fr/music.html</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://gunnargoldsmith.com/music.html" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://gunnargoldsmith.com/fr/music.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://gunnargoldsmith.com/de/music.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://gunnargoldsmith.com/es/music.html" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://gunnargoldsmith.com/pt/music.html" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://gunnargoldsmith.com/it/music.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gunnargoldsmith.com/ja/music.html" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://gunnargoldsmith.com/zh/music.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gunnargoldsmith.com/ru/music.html" />
+  </url>
+  <url>
+    <loc>https://gunnargoldsmith.com/de/music.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gunnargoldsmith.com/music.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://gunnargoldsmith.com/fr/music.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://gunnargoldsmith.com/de/music.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://gunnargoldsmith.com/es/music.html" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://gunnargoldsmith.com/pt/music.html" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://gunnargoldsmith.com/it/music.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gunnargoldsmith.com/ja/music.html" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://gunnargoldsmith.com/zh/music.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gunnargoldsmith.com/ru/music.html" />
+  </url>
+  <url>
+    <loc>https://gunnargoldsmith.com/es/music.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gunnargoldsmith.com/music.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://gunnargoldsmith.com/fr/music.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://gunnargoldsmith.com/de/music.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://gunnargoldsmith.com/es/music.html" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://gunnargoldsmith.com/pt/music.html" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://gunnargoldsmith.com/it/music.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gunnargoldsmith.com/ja/music.html" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://gunnargoldsmith.com/zh/music.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gunnargoldsmith.com/ru/music.html" />
+  </url>
+  <url>
+    <loc>https://gunnargoldsmith.com/pt/music.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gunnargoldsmith.com/music.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://gunnargoldsmith.com/fr/music.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://gunnargoldsmith.com/de/music.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://gunnargoldsmith.com/es/music.html" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://gunnargoldsmith.com/pt/music.html" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://gunnargoldsmith.com/it/music.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gunnargoldsmith.com/ja/music.html" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://gunnargoldsmith.com/zh/music.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gunnargoldsmith.com/ru/music.html" />
+  </url>
+  <url>
+    <loc>https://gunnargoldsmith.com/it/music.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gunnargoldsmith.com/music.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://gunnargoldsmith.com/fr/music.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://gunnargoldsmith.com/de/music.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://gunnargoldsmith.com/es/music.html" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://gunnargoldsmith.com/pt/music.html" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://gunnargoldsmith.com/it/music.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gunnargoldsmith.com/ja/music.html" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://gunnargoldsmith.com/zh/music.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gunnargoldsmith.com/ru/music.html" />
+  </url>
+  <url>
+    <loc>https://gunnargoldsmith.com/ja/music.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gunnargoldsmith.com/music.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://gunnargoldsmith.com/fr/music.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://gunnargoldsmith.com/de/music.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://gunnargoldsmith.com/es/music.html" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://gunnargoldsmith.com/pt/music.html" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://gunnargoldsmith.com/it/music.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gunnargoldsmith.com/ja/music.html" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://gunnargoldsmith.com/zh/music.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gunnargoldsmith.com/ru/music.html" />
+  </url>
+  <url>
+    <loc>https://gunnargoldsmith.com/zh/music.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gunnargoldsmith.com/music.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://gunnargoldsmith.com/fr/music.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://gunnargoldsmith.com/de/music.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://gunnargoldsmith.com/es/music.html" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://gunnargoldsmith.com/pt/music.html" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://gunnargoldsmith.com/it/music.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gunnargoldsmith.com/ja/music.html" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://gunnargoldsmith.com/zh/music.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gunnargoldsmith.com/ru/music.html" />
+  </url>
+  <url>
+    <loc>https://gunnargoldsmith.com/ru/music.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gunnargoldsmith.com/music.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://gunnargoldsmith.com/fr/music.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://gunnargoldsmith.com/de/music.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://gunnargoldsmith.com/es/music.html" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://gunnargoldsmith.com/pt/music.html" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://gunnargoldsmith.com/it/music.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gunnargoldsmith.com/ja/music.html" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://gunnargoldsmith.com/zh/music.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gunnargoldsmith.com/ru/music.html" />
+  </url>
+  <url>
+    <loc>https://gunnargoldsmith.com/content.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gunnargoldsmith.com/content.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://gunnargoldsmith.com/fr/content.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://gunnargoldsmith.com/de/content.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://gunnargoldsmith.com/es/content.html" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://gunnargoldsmith.com/pt/content.html" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://gunnargoldsmith.com/it/content.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gunnargoldsmith.com/ja/content.html" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://gunnargoldsmith.com/zh/content.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gunnargoldsmith.com/ru/content.html" />
   </url>
   <url>
     <loc>https://gunnargoldsmith.com/fr/content.html</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://gunnargoldsmith.com/content.html" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://gunnargoldsmith.com/fr/content.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://gunnargoldsmith.com/de/content.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://gunnargoldsmith.com/es/content.html" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://gunnargoldsmith.com/pt/content.html" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://gunnargoldsmith.com/it/content.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gunnargoldsmith.com/ja/content.html" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://gunnargoldsmith.com/zh/content.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gunnargoldsmith.com/ru/content.html" />
+  </url>
+  <url>
+    <loc>https://gunnargoldsmith.com/de/content.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gunnargoldsmith.com/content.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://gunnargoldsmith.com/fr/content.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://gunnargoldsmith.com/de/content.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://gunnargoldsmith.com/es/content.html" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://gunnargoldsmith.com/pt/content.html" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://gunnargoldsmith.com/it/content.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gunnargoldsmith.com/ja/content.html" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://gunnargoldsmith.com/zh/content.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gunnargoldsmith.com/ru/content.html" />
+  </url>
+  <url>
+    <loc>https://gunnargoldsmith.com/es/content.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gunnargoldsmith.com/content.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://gunnargoldsmith.com/fr/content.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://gunnargoldsmith.com/de/content.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://gunnargoldsmith.com/es/content.html" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://gunnargoldsmith.com/pt/content.html" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://gunnargoldsmith.com/it/content.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gunnargoldsmith.com/ja/content.html" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://gunnargoldsmith.com/zh/content.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gunnargoldsmith.com/ru/content.html" />
+  </url>
+  <url>
+    <loc>https://gunnargoldsmith.com/pt/content.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gunnargoldsmith.com/content.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://gunnargoldsmith.com/fr/content.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://gunnargoldsmith.com/de/content.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://gunnargoldsmith.com/es/content.html" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://gunnargoldsmith.com/pt/content.html" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://gunnargoldsmith.com/it/content.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gunnargoldsmith.com/ja/content.html" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://gunnargoldsmith.com/zh/content.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gunnargoldsmith.com/ru/content.html" />
+  </url>
+  <url>
+    <loc>https://gunnargoldsmith.com/it/content.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gunnargoldsmith.com/content.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://gunnargoldsmith.com/fr/content.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://gunnargoldsmith.com/de/content.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://gunnargoldsmith.com/es/content.html" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://gunnargoldsmith.com/pt/content.html" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://gunnargoldsmith.com/it/content.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gunnargoldsmith.com/ja/content.html" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://gunnargoldsmith.com/zh/content.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gunnargoldsmith.com/ru/content.html" />
+  </url>
+  <url>
+    <loc>https://gunnargoldsmith.com/ja/content.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gunnargoldsmith.com/content.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://gunnargoldsmith.com/fr/content.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://gunnargoldsmith.com/de/content.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://gunnargoldsmith.com/es/content.html" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://gunnargoldsmith.com/pt/content.html" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://gunnargoldsmith.com/it/content.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gunnargoldsmith.com/ja/content.html" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://gunnargoldsmith.com/zh/content.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gunnargoldsmith.com/ru/content.html" />
+  </url>
+  <url>
+    <loc>https://gunnargoldsmith.com/zh/content.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gunnargoldsmith.com/content.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://gunnargoldsmith.com/fr/content.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://gunnargoldsmith.com/de/content.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://gunnargoldsmith.com/es/content.html" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://gunnargoldsmith.com/pt/content.html" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://gunnargoldsmith.com/it/content.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gunnargoldsmith.com/ja/content.html" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://gunnargoldsmith.com/zh/content.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gunnargoldsmith.com/ru/content.html" />
+  </url>
+  <url>
+    <loc>https://gunnargoldsmith.com/ru/content.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gunnargoldsmith.com/content.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://gunnargoldsmith.com/fr/content.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://gunnargoldsmith.com/de/content.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://gunnargoldsmith.com/es/content.html" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://gunnargoldsmith.com/pt/content.html" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://gunnargoldsmith.com/it/content.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gunnargoldsmith.com/ja/content.html" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://gunnargoldsmith.com/zh/content.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gunnargoldsmith.com/ru/content.html" />
+  </url>
+  <url>
+    <loc>https://gunnargoldsmith.com/portfolio.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gunnargoldsmith.com/portfolio.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://gunnargoldsmith.com/fr/portfolio.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://gunnargoldsmith.com/de/portfolio.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://gunnargoldsmith.com/es/portfolio.html" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://gunnargoldsmith.com/pt/portfolio.html" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://gunnargoldsmith.com/it/portfolio.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gunnargoldsmith.com/ja/portfolio.html" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://gunnargoldsmith.com/zh/portfolio.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gunnargoldsmith.com/ru/portfolio.html" />
   </url>
   <url>
     <loc>https://gunnargoldsmith.com/fr/portfolio.html</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://gunnargoldsmith.com/portfolio.html" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://gunnargoldsmith.com/fr/portfolio.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://gunnargoldsmith.com/de/portfolio.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://gunnargoldsmith.com/es/portfolio.html" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://gunnargoldsmith.com/pt/portfolio.html" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://gunnargoldsmith.com/it/portfolio.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gunnargoldsmith.com/ja/portfolio.html" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://gunnargoldsmith.com/zh/portfolio.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gunnargoldsmith.com/ru/portfolio.html" />
+  </url>
+  <url>
+    <loc>https://gunnargoldsmith.com/de/portfolio.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gunnargoldsmith.com/portfolio.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://gunnargoldsmith.com/fr/portfolio.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://gunnargoldsmith.com/de/portfolio.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://gunnargoldsmith.com/es/portfolio.html" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://gunnargoldsmith.com/pt/portfolio.html" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://gunnargoldsmith.com/it/portfolio.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gunnargoldsmith.com/ja/portfolio.html" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://gunnargoldsmith.com/zh/portfolio.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gunnargoldsmith.com/ru/portfolio.html" />
+  </url>
+  <url>
+    <loc>https://gunnargoldsmith.com/es/portfolio.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gunnargoldsmith.com/portfolio.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://gunnargoldsmith.com/fr/portfolio.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://gunnargoldsmith.com/de/portfolio.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://gunnargoldsmith.com/es/portfolio.html" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://gunnargoldsmith.com/pt/portfolio.html" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://gunnargoldsmith.com/it/portfolio.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gunnargoldsmith.com/ja/portfolio.html" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://gunnargoldsmith.com/zh/portfolio.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gunnargoldsmith.com/ru/portfolio.html" />
+  </url>
+  <url>
+    <loc>https://gunnargoldsmith.com/pt/portfolio.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gunnargoldsmith.com/portfolio.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://gunnargoldsmith.com/fr/portfolio.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://gunnargoldsmith.com/de/portfolio.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://gunnargoldsmith.com/es/portfolio.html" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://gunnargoldsmith.com/pt/portfolio.html" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://gunnargoldsmith.com/it/portfolio.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gunnargoldsmith.com/ja/portfolio.html" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://gunnargoldsmith.com/zh/portfolio.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gunnargoldsmith.com/ru/portfolio.html" />
+  </url>
+  <url>
+    <loc>https://gunnargoldsmith.com/it/portfolio.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gunnargoldsmith.com/portfolio.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://gunnargoldsmith.com/fr/portfolio.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://gunnargoldsmith.com/de/portfolio.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://gunnargoldsmith.com/es/portfolio.html" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://gunnargoldsmith.com/pt/portfolio.html" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://gunnargoldsmith.com/it/portfolio.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gunnargoldsmith.com/ja/portfolio.html" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://gunnargoldsmith.com/zh/portfolio.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gunnargoldsmith.com/ru/portfolio.html" />
+  </url>
+  <url>
+    <loc>https://gunnargoldsmith.com/ja/portfolio.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gunnargoldsmith.com/portfolio.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://gunnargoldsmith.com/fr/portfolio.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://gunnargoldsmith.com/de/portfolio.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://gunnargoldsmith.com/es/portfolio.html" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://gunnargoldsmith.com/pt/portfolio.html" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://gunnargoldsmith.com/it/portfolio.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gunnargoldsmith.com/ja/portfolio.html" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://gunnargoldsmith.com/zh/portfolio.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gunnargoldsmith.com/ru/portfolio.html" />
+  </url>
+  <url>
+    <loc>https://gunnargoldsmith.com/zh/portfolio.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gunnargoldsmith.com/portfolio.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://gunnargoldsmith.com/fr/portfolio.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://gunnargoldsmith.com/de/portfolio.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://gunnargoldsmith.com/es/portfolio.html" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://gunnargoldsmith.com/pt/portfolio.html" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://gunnargoldsmith.com/it/portfolio.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gunnargoldsmith.com/ja/portfolio.html" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://gunnargoldsmith.com/zh/portfolio.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gunnargoldsmith.com/ru/portfolio.html" />
+  </url>
+  <url>
+    <loc>https://gunnargoldsmith.com/ru/portfolio.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://gunnargoldsmith.com/portfolio.html" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://gunnargoldsmith.com/fr/portfolio.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://gunnargoldsmith.com/de/portfolio.html" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://gunnargoldsmith.com/es/portfolio.html" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://gunnargoldsmith.com/pt/portfolio.html" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://gunnargoldsmith.com/it/portfolio.html" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://gunnargoldsmith.com/ja/portfolio.html" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://gunnargoldsmith.com/zh/portfolio.html" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://gunnargoldsmith.com/ru/portfolio.html" />
   </url>
 </urlset>

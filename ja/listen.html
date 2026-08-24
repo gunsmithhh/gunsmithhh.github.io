@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="ja">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Écouter — Gunnar Goldsmith</title>
-<meta name="description" content="Choisissez où écouter la musique de Gunnar Goldsmith — Spotify, Apple Music, SoundCloud, Amazon Music et Tidal.">
+<title>聴く — Gunnar Goldsmith</title>
+<meta name="description" content="ガンナー・ゴールドスミスの音楽を聴くプラットフォームを選択 — Spotify、Apple Music、SoundCloud、Amazon Music、Tidal。">
 <link rel="alternate" hreflang="en" href="https://gunnargoldsmith.com/listen.html">
 <link rel="alternate" hreflang="fr" href="https://gunnargoldsmith.com/fr/listen.html">
 <link rel="alternate" hreflang="de" href="https://gunnargoldsmith.com/de/listen.html">
@@ -27,7 +27,7 @@
     <a class="wordmark" href="index.html"><img class="wordmark-logo" src="../assets/logo.png" alt=""><span translate="no">Gunnar Goldsmith</span></a>
   </header>
   <main id="content">
-    <p class="subtext">Chargement&hellip;</p>
+    <p class="subtext">読み込み中…</p>
   </main>
 
   <script src="../js/songs.js"></script>
@@ -41,11 +41,11 @@
     if (!song) {
       const msg = document.createElement("p");
       msg.className = "subtext";
-      msg.textContent = "Morceau introuvable.";
+      msg.textContent = "曲が見つかりません。";
       const back = document.createElement("a");
       back.className = "back-link";
       back.href = "music.html";
-      back.textContent = "← Retour à la musique";
+      back.textContent = "← 音楽に戻る";
       content.appendChild(msg);
       content.appendChild(back);
     } else {
@@ -69,7 +69,7 @@
 
       const sub = document.createElement("p");
       sub.className = "track-sub";
-      sub.textContent = "Choisissez où écouter";
+      sub.textContent = "聴く場所を選択";
 
       const list = document.createElement("div");
       list.className = "link-list";
@@ -105,14 +105,14 @@
       } else {
         const soon = document.createElement("p");
         soon.className = "subtext";
-        soon.textContent = "Liens de streaming bientôt disponibles.";
+        soon.textContent = "配信リンクは近日公開。";
         content.appendChild(soon);
       }
 
       const back = document.createElement("a");
       back.className = "back-link";
       back.href = "music.html";
-      back.textContent = "← Retour à la musique";
+      back.textContent = "← 音楽に戻る";
       content.appendChild(back);
     }
   </script>
