@@ -1,7 +1,7 @@
 :root {
   --bg: #ffffff;
   --ink: #111111;
-  --muted: #6b6b6b;
+  --muted: #575757;
   --gold: #b3892f;
   --gold-soft: #f2e8d5;
   --border: #e6e6e6;
@@ -9,6 +9,13 @@
   --header-pad-top: 32px;
   --font-body: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
   --font-display: "Space Grotesk", var(--font-body);
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 20px;
+  --radius-pill: 999px;
+  --shadow-sm: 0 1px 3px rgba(17, 17, 17, 0.06);
+  --shadow-md: 0 12px 28px rgba(17, 17, 17, 0.12);
+  --ease: cubic-bezier(0.2, 0.8, 0.2, 1);
 }
 
 * { box-sizing: border-box; }
@@ -22,9 +29,13 @@ body {
   background: var(--bg);
   color: var(--ink);
   font-family: var(--font-body);
+  line-height: 1.6;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
 }
 
 a {
@@ -34,9 +45,9 @@ a {
 
 a:focus-visible,
 button:focus-visible {
-  outline: 2px solid currentColor;
+  outline: 2px solid var(--gold);
   outline-offset: 3px;
-  border-radius: 2px;
+  border-radius: 4px;
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -44,6 +55,10 @@ button:focus-visible {
     transition-duration: 0.001ms !important;
     animation-duration: 0.001ms !important;
   }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  html { scroll-behavior: smooth; }
 }
 
 .site-header {
@@ -56,12 +71,13 @@ button:focus-visible {
 .wordmark {
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 9px;
   font-family: var(--font-display);
   font-size: 14px;
-  letter-spacing: 0.28em;
+  letter-spacing: 0.26em;
   text-transform: uppercase;
   font-weight: 600;
+  transition: color 0.2s var(--ease);
 }
 
 .wordmark-logo {
@@ -71,10 +87,11 @@ button:focus-visible {
 }
 
 .hero-logo {
-  width: 64px;
-  height: 64px;
+  width: 72px;
+  height: 72px;
   display: block;
-  margin: 0 auto 16px;
+  margin: 0 auto 20px;
+  filter: drop-shadow(0 8px 20px rgba(17, 17, 17, 0.1));
 }
 
 .wordmark:hover {
@@ -94,28 +111,30 @@ main {
 
 .intro {
   text-align: center;
-  margin-bottom: 56px;
+  margin-bottom: 60px;
 }
 
 .intro h1 {
   font-family: var(--font-display);
-  font-size: 15px;
-  letter-spacing: 0.32em;
+  font-size: clamp(24px, 5vw, 34px);
+  letter-spacing: 0.05em;
   text-transform: uppercase;
   font-weight: 700;
-  margin: 0 0 8px;
+  margin: 0 0 12px;
 }
 
 .intro p {
-  font-size: 13px;
+  font-size: clamp(14px, 2vw, 16px);
+  line-height: 1.55;
   color: var(--muted);
-  margin: 0;
-  letter-spacing: 0.02em;
+  margin: 0 auto;
+  max-width: 420px;
+  letter-spacing: 0.01em;
 }
 
 .bubbles {
   display: flex;
-  gap: 40px;
+  gap: 32px;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
@@ -123,32 +142,34 @@ main {
 
 .tiny-link {
   display: block;
-  margin-top: 40px;
-  font-size: 10px;
-  letter-spacing: 0.08em;
+  margin-top: 48px;
+  font-size: 11px;
+  letter-spacing: 0.1em;
   text-transform: uppercase;
   color: var(--muted);
   text-align: center;
+  transition: color 0.2s var(--ease);
 }
 
 .tiny-link:hover {
-  color: var(--ink);
+  color: var(--gold);
 }
 
 .bubble {
-  width: 180px;
-  height: 180px;
+  width: 184px;
+  height: 184px;
   border-radius: 50%;
-  border: 1px solid var(--ink);
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow-sm);
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
-  font-size: 13px;
-  letter-spacing: 0.14em;
+  font-size: 14px;
+  letter-spacing: 0.12em;
   text-transform: uppercase;
   font-weight: 600;
-  transition: transform 0.25s ease, background 0.25s ease, color 0.25s ease, border-color 0.25s ease;
+  transition: transform 0.25s var(--ease), box-shadow 0.25s var(--ease), background 0.25s var(--ease), color 0.25s var(--ease), border-color 0.25s var(--ease);
 }
 
 .bubble span {
@@ -160,18 +181,20 @@ main {
   background: var(--ink);
   color: #fff;
   border-color: var(--ink);
+  box-shadow: var(--shadow-md);
 }
 
 @media (max-width: 560px) {
-  .bubbles { gap: 24px; }
-  .bubble { width: 148px; height: 148px; font-size: 12px; }
+  .bubbles { gap: 22px; }
+  .bubble { width: 150px; height: 150px; font-size: 13px; }
 }
 
 /* ---------- Simple sub-page layout ---------- */
 
 .page-title {
-  font-size: 13px;
-  letter-spacing: 0.28em;
+  font-family: var(--font-display);
+  font-size: clamp(20px, 4vw, 26px);
+  letter-spacing: 0.06em;
   text-transform: uppercase;
   font-weight: 700;
   margin: 0 0 40px;
@@ -187,25 +210,29 @@ main {
 }
 
 .link-list a {
-  border: 1px solid var(--ink);
-  border-radius: 999px;
-  padding: 14px 20px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-pill);
+  padding: 16px 22px;
   text-align: center;
-  font-size: 13px;
+  font-size: 14px;
   letter-spacing: 0.08em;
   text-transform: uppercase;
   font-weight: 600;
-  transition: background 0.2s ease, color 0.2s ease;
+  box-shadow: var(--shadow-sm);
+  transition: transform 0.2s var(--ease), background 0.2s var(--ease), color 0.2s var(--ease), box-shadow 0.2s var(--ease), border-color 0.2s var(--ease);
 }
 
 .link-list a:hover {
   background: var(--ink);
+  border-color: var(--ink);
   color: #fff;
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
 }
 
 .subtext {
-  margin-top: 32px;
-  font-size: 12px;
+  margin-top: 28px;
+  font-size: 13px;
   color: var(--muted);
   text-align: center;
   max-width: 340px;
@@ -227,7 +254,7 @@ main {
 
 .hero-cover .cover-art {
   border-radius: 0;
-  transition: opacity 0.2s ease;
+  transition: opacity 0.2s var(--ease);
 }
 
 .hero-cover .cover-art img {
@@ -240,9 +267,9 @@ main {
 
 .hero-caption {
   width: min(70vw, 460px);
-  margin: 8px auto 0;
+  margin: 10px auto 0;
   text-align: center;
-  font-size: 12px;
+  font-size: 13px;
   letter-spacing: 0.03em;
   color: var(--muted);
 }
@@ -253,7 +280,7 @@ main {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 20px;
+  gap: 24px;
   width: 100%;
   max-width: var(--max);
 }
@@ -266,13 +293,13 @@ main {
 .cover-art {
   width: 100%;
   aspect-ratio: 1 / 1;
-  border-radius: 8px;
+  border-radius: var(--radius-md);
   overflow: hidden;
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
-  transition: transform 0.2s ease;
+  transition: transform 0.2s var(--ease), filter 0.2s var(--ease);
 }
 
 .cover-art img {
@@ -296,12 +323,13 @@ main {
 }
 
 .cover-card:hover .cover-art {
-  transform: scale(1.03);
+  transform: translateY(-4px) scale(1.03);
+  filter: drop-shadow(0 10px 18px rgba(17, 17, 17, 0.14));
 }
 
 .cover-label {
-  margin-top: 10px;
-  font-size: 12px;
+  margin-top: 12px;
+  font-size: 13px;
   text-align: center;
   letter-spacing: 0.03em;
 }
@@ -318,15 +346,16 @@ main {
 /* ---------- Track page ---------- */
 
 .track-cover {
-  width: 220px;
-  height: 220px;
-  border-radius: 12px;
+  width: min(220px, 60vw);
+  aspect-ratio: 1 / 1;
+  border-radius: var(--radius-lg);
   overflow: hidden;
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
-  margin-bottom: 28px;
+  margin: 0 auto 28px;
+  box-shadow: var(--shadow-md);
 }
 
 .track-cover--placeholder {
@@ -349,7 +378,7 @@ main {
 }
 
 .track-title {
-  font-size: 12px;
+  font-size: 13px;
   font-weight: 600;
   letter-spacing: 0.03em;
   color: var(--muted);
@@ -358,7 +387,7 @@ main {
 }
 
 .track-sub {
-  font-size: 12px;
+  font-size: 13px;
   color: var(--muted);
   margin: 0 0 32px;
   text-align: center;
@@ -370,10 +399,11 @@ main {
   letter-spacing: 0.08em;
   text-transform: uppercase;
   color: var(--muted);
+  transition: color 0.2s var(--ease);
 }
 
 .back-link:hover {
-  color: var(--ink);
+  color: var(--gold);
 }
 
 /* ---------- Content / Projects page ---------- */
@@ -387,7 +417,7 @@ main.ugc-main {
 .ugc-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 16px;
+  gap: 20px;
   width: 100%;
   max-width: 900px;
   margin: 0 auto;
@@ -401,14 +431,17 @@ main.ugc-main {
   padding: 20px;
   overflow: hidden;
   background: #fff;
-  border: 1px solid var(--ink);
-  border-radius: 12px;
-  transition: transform 0.25s ease, background 0.25s ease;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-sm);
+  transition: transform 0.25s var(--ease), background 0.25s var(--ease), box-shadow 0.25s var(--ease), border-color 0.25s var(--ease);
 }
 
 .ugc-tile:hover {
   transform: translateY(-6px);
   background: var(--ink);
+  border-color: var(--ink);
+  box-shadow: var(--shadow-md);
 }
 
 .ugc-tile-logo {
@@ -419,7 +452,7 @@ main.ugc-main {
   width: 110px;
   height: 110px;
   z-index: 0;
-  transition: filter 0.25s ease;
+  transition: filter 0.25s var(--ease);
 }
 
 .ugc-tile-logo--car {
@@ -435,11 +468,11 @@ main.ugc-main {
   position: relative;
   z-index: 2;
   color: var(--ink);
-  font-size: 14px;
-  letter-spacing: 0.2em;
+  font-size: 15px;
+  letter-spacing: 0.16em;
   text-transform: uppercase;
   font-weight: 700;
-  transition: color 0.25s ease;
+  transition: color 0.25s var(--ease);
 }
 
 .ugc-tile:hover .ugc-label {
@@ -459,18 +492,18 @@ main.ugc-main {
 }
 
 .photo-section-title {
-  font-size: 11px;
+  font-size: 12px;
   letter-spacing: 0.2em;
   text-transform: uppercase;
   font-weight: 700;
   color: var(--muted);
-  margin: 0 0 12px;
+  margin: 0 0 14px;
 }
 
 .photo-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 20px 16px;
+  gap: 22px 18px;
   width: 100%;
 }
 
@@ -483,17 +516,18 @@ main.ugc-main {
   aspect-ratio: 1 / 1;
   object-fit: cover;
   display: block;
-  border-radius: 4px;
-  transition: transform 0.2s ease;
+  border-radius: var(--radius-sm);
+  transition: transform 0.25s var(--ease), box-shadow 0.25s var(--ease);
 }
 
 .photo-item:hover img {
   transform: scale(1.03);
+  box-shadow: var(--shadow-md);
 }
 
 .photo-caption {
   margin-top: 8px;
-  font-size: 11px;
+  font-size: 12px;
   letter-spacing: 0.03em;
   color: var(--muted);
 }
